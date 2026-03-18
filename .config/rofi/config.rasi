@@ -1,0 +1,12 @@
+configuration {
+    modi: "drun";
+    show-icons: false;
+    drun-display-format: "{name}";
+    display-drun: "";
+    matching: "fuzzy";
+    sort: true;
+    lazy-grab: false;
+    steal-focus: true;
+}
+
+@theme "~/.config/rofi/theme.rasi"

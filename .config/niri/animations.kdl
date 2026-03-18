@@ -1,0 +1,33 @@
+animations {
+    slowdown 0.5
+
+    window-open {
+        duration-ms 120
+        curve "ease-out-expo"
+    }
+
+    window-close {
+        duration-ms 100
+        curve "ease-out-expo"
+    }
+
+    window-movement {
+        duration-ms 150
+        curve "ease-out-expo"
+    }
+
+    window-resize {
+        duration-ms 150
+        curve "ease-out-expo"
+    }
+
+    workspace-switch {
+        duration-ms 200
+        curve "ease-out-expo"
+    }
+
+    horizontal-view-movement {
+        duration-ms 150
+        curve "ease-out-expo"
+    }
+}
