@@ -26,3 +26,4 @@ alias cdn="cd ~/.config/niri/"
 PS1='[\u@\h \W]\$ '
 export PATH="$HOME/.local/bin:$PATH"
 alias dotfiles='/usr/bin/git --git-dir=/home/seth/.dotfiles/ --work-tree=/home/seth'
+eval "$(starship init bash)"
