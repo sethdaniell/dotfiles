@@ -1,0 +1,21 @@
+format = """
+╭─[ $username](fg:#a8b5bc)[ $directory](fg:#537787)
+╰─$character"""
+
+[username]
+show_always = true
+style_user = 'fg:#a8b5bc'
+style_root = 'fg:#a8b5bc'
+format = '[$user]($style)'
+
+[directory]
+style = 'fg:#537787'
+format = '[$path]($style)'
+truncation_length = 3
+
+[time]
+disabled = true
+
+[character]
+success_symbol = '[➜](bold #496870)'
+error_symbol = '[➜](bold red)'
